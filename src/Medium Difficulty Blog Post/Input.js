@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Input(setCount, count, setBlogPosts, blogPosts) {
+function Input({ setCount, count, setBlogPosts, blogPosts }) {
   const [inputTitle, setInputTitle] = useState("");
   const [inputDescription, setInputDescription] = useState("");
 

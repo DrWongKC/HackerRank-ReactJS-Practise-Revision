@@ -1,4 +1,4 @@
-function PostDisplay(blogPosts, setBlogPosts) {
+function PostDisplay({ blogPosts, setBlogPosts }) {
   function deleteBlogPost(id) {
     setBlogPosts((currentPosts) =>
       currentPosts.filter((post) => post.id !== id),
